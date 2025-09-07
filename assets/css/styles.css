@@ -85,10 +85,14 @@ img { max-width: 100%; display: block; }
 .testimonial { margin: 0; padding: 18px; border-radius: 14px; background: var(--card); border: 1px solid var(--border); }
 .testimonial blockquote { margin: 0 0 10px; color: var(--text); }
 .testimonial figcaption { color: var(--muted); }
+.testimonial-illustration { display: grid; place-items: center; margin: 12px 0 20px; }
+.testimonial-illustration img { width: 100%; max-width: 800px; height: auto; opacity: .95; }
 
 /* Contact */
 .contact-inner { max-width: 900px; }
 .contact-form { background: var(--card); border: 1px solid var(--border); padding: 18px; border-radius: 14px; }
+.contact-illustration { display: grid; place-items: center; margin: 12px 0 20px; }
+.contact-illustration img { width: 100%; max-width: 800px; height: auto; opacity: .95; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
 .form-row .full { grid-column: 1 / -1; }
 label { display: grid; gap: 6px; color: var(--muted); font-size: 14px; }
